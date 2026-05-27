@@ -19,17 +19,30 @@ class RectDemo{
 class Rect {
 	public static void main(String args[]){
 
-		RectDemo r1 = new RectDemo();
-		r1.setData();
-		r1.displayData();
-
+		try{
+			RectDemo r[] = new RectDemo[3];
+			for(int i=0;i<3;i++){
+				r[i].setData(10,20);
+				r[i].displayData();
+			}
+		}/
+		ca tch(NullPointerExcpetion e){
+			9
+			System.out.println("Null Pointer Exception");
+		}
+		catch(Exception e){
+			9
+			System.out.println("Null Pointer Exception");
+		}
+		
+/*
 		RectDemo r2 = new RectDemo();
 		r2.setData(10,30);
 		r2.displayData();
 
 		RectDemo r3 = new RectDemo();
 		r3.setData(90);
-		r3.displayData();
+		r3.displayData(); */
 
 
 	}
